@@ -11,10 +11,10 @@ import { useState } from "react";
 function App() {
 
   const [uinput, setInput] = useState({
-    initialInvestment : 10000,
-    annualInvestment : 1200,
-    expectedReturn : 6,
-    duration : 10,
+    initialInvestment: 0,
+    annualInvestment: 0,
+    expectedReturn: 0,
+    duration: 0,
   });
 
   const inputIsValid = uinput.duration >= 1;
